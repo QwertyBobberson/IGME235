@@ -1,0 +1,50 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: cornflowerblue;
+}
+
+a.placeholder:visited
+{
+    color: gainsboro
+}
+
+#title
+{
+    color: blueviolet;
+}
+
+.center
+{
+    padding: 1em;
+    text-align: center;
+}
+
+#shrink
+{
+    height: 30%;
+    width: 30%;
+}
+
+a:link
+{
+    color:cyan
+}
+
+a:visited
+{
+    color:cadetblue
+}
+
+a:hover
+{
+    color:blue
+}
+
+a:active
+{
+    color:darkblue
+}

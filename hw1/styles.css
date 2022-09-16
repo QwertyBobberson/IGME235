@@ -1,0 +1,23 @@
+body
+{
+    background-color: black;
+    color: deepskyblue;
+    text-align: center;
+}
+
+ul
+{
+    justify-content: center;
+    display: flex;
+}
+
+blockquote
+{
+    padding: 2%;
+    background-color: dimgray;
+    color: white;
+    border-color: gray;
+    border-radius: 12px;
+    border-style: inset;
+    border-width: .01em;
+}
