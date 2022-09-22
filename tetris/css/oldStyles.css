@@ -1,0 +1,34 @@
+h2
+{
+    clear: both;
+    border-bottom: 1px solid red;
+}
+
+figure
+{
+    float: right;
+    width: 40vw;
+    border: 1px solid blue;
+}
+
+figure > img
+{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.tet
+{
+    float: left;
+    width: 50%;
+    border: 1px solid blue;
+}
+
+footer
+{
+    clear: both;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}

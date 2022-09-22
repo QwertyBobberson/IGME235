@@ -1,0 +1,61 @@
+header, footer, main
+{
+    width: 90vw;
+    margin: auto;
+    clear: both;
+}
+
+h2
+{
+    clear: both;
+    border-bottom: 1px solid red;
+}
+
+figure
+{
+    float: right;
+    width: 40vw;
+    max-width: 650px;
+    margin: auto;
+    border: 1px solid blue;
+}
+
+figure > img
+{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.tet
+{
+    float: left;
+    width: 25%;
+    border: 1px solid blue;
+    flex: 1 0 450px;
+    text-align: center;
+}
+
+.aliases
+{
+    text-align: left;
+    margin: 1em;
+}
+
+.tet > img
+{
+    width: 60%;
+}
+
+span
+{
+    display: block;
+    margin: 3px 0;
+    font-size: large;
+    font-weight: 600;
+}
+
+.tetlist
+{
+    display: flexbox;
+    flex-flow: row wrap;
+}
