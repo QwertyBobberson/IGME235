@@ -52,13 +52,13 @@ Grid Formatting
                          "sidebar" 
                          "footer";
     max-width: 1200px;
-    margin: 0 auto;
 }
 
 @media screen and (min-width: 760px)
 {
     #wrapper
     {
+        margin: 0 auto;
         grid-template-rows: 1fr 10fr 1fr;
         grid-template-columns: 20% 1fr 20%;
         grid-template-areas: "header header header"
@@ -67,6 +67,14 @@ Grid Formatting
     }
 }
 
+@media screen and (min-width: 1200px)
+{
+    #wrapper
+    {
+        height: 96vh;
+        margin: 2vh auto;
+    }
+}
 
 header
 {
