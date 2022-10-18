@@ -1,0 +1,115 @@
+#wrapper
+{
+    margin: auto;
+    padding: 2% 5%;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-rows: 2fr 14fr;
+    grid-template-areas:    "title title  right"
+                            "left  center right";
+
+}
+header
+{
+    grid-area: title;
+}
+
+#left-column
+{
+    grid-area: left;
+}
+#left-column h3, #left-column h4
+{
+    color: limegreen;
+    font-weight: bolder;
+}
+#left-column .colored-block
+{
+    background-color: limegreen;
+}
+
+
+#center-column
+{
+    grid-area: center;
+}
+#center-column h3, #center-column h4
+{
+    color: purple;
+    font-weight: bolder;
+}
+#center-column .colored-block
+{
+    background-color: purple;
+}
+
+#right-column
+{
+    grid-area: right;
+}
+#right-column h3, #right-column h4
+{
+    color: hotpink;
+    font-weight: bolder;
+}
+#right-column .colored-block
+{
+    background-color: hotpink;
+}
+
+#left-column *, #center-column * ,#right-column *
+{
+    padding: 0px 5px;
+    width: 75%;
+}
+
+.colored-block
+{
+    color: black;
+    border-radius: 10px;
+    font-size: smaller;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.colored-block h5
+{
+    color: white;
+    font-size: larger;
+    margin: 0% 5px;
+}
+
+.colored-block p
+{
+    margin: 10px;
+}
+
+p
+{
+    font-size: smaller;
+}
+
+h4
+{
+    padding-bottom: 0%;
+    padding-top: 0px;
+    margin-top: 0%;
+}
+
+img
+{
+    border-radius: 7%;
+    margin-top: 10px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+hr
+{
+    width: 75%;
+    padding: 0%;
+    margin: 0%;
+    height: 1px;
+    border: none;
+    background-color: gainsboro;
+}

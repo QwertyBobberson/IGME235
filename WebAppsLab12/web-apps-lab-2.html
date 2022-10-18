@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>DOM-3</title>
+	<style>
+		body{border:1px solid gray;}
+		p b{transform: rotate(20deg)}
+	</style>
+</head>
+<body>
+<h1>My Page</h1>
+<h2>Info</h2>
+<h2>Pictures</h2>
+<h2>More Info</h2>
+<p>Blah <b>Blah</b> Blah</p>
+<p>Blah <b>Blah</b> Blah</p>
+<p id="lastParagraph">Blah <b>Blah</b> Blah</p>
+<footer>Copyright &copy; <b>20XX</b></footer>
+<script>
+	"use strict";
+
+    document.querySelector("h1").innerHTML = "My UFO Page";
+    document.querySelector("h2").innerHTML = "My UFO Info";
+    document.querySelectorAll("h2")[1].innerHTML = "My UFO Pictures";
+    document.querySelectorAll("h2")[2].innerHTML = "";
+
+    document.body.style.fontFamily = "sans-serif";
+    document.body.style.color = "#FF0000";
+
+    document.querySelector("p").innerHTML = "Report your UFO sightings here: <a href='http://www.nuforc.org'>nuforc</a>";
+    document.querySelector("p").style.color = "green";
+    document.querySelector("p").style.fontWeight = "bold";
+    document.querySelector("p").style.fontSize = "2em";
+    document.querySelector("p").style.textTransform = "uppercase";
+    document.querySelector("p").style.textShadow = "3px 2px #A44";
+
+    document.querySelectorAll("p")[1].innerHTML = "";
+    document.querySelectorAll("p")[2].innerHTML = "<img src='http://inspiration.rehlat.com/wp-content/uploads/2018/10/ufo5.jpg' alt='a ufo'>";
+    document.querySelector("footer").innerHTML = "Copyright &copy; Crystal Ebrhim 2022";
+
+	</script>
+</body>
+</html>
