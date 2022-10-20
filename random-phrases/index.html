@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="focus">
+            <p>
+                Random Phrases
+            </p>
+            <input type="button" onclick="RandomPhrase()" value="Press Me!">
+        </div>
+        <footer>
+            Crystal Ebrhim
+        </footer>
+    </body>
+
+    <script>
+        RandomPhrase();
+        function RandomPhrase()
+        {
+            const phrases = ["The city that really needs to sleep sometime", "All the crowds of vegas, none of the fun", "24/7 rush hour, but no one here has a license", "Because what's more attractive than over population?", "Not the capital for some reason"];
+            document.querySelector("p").innerHTML = phrases[Math.floor(Math.random() * 5)];
+        }
+    </script>
+</html>
